@@ -7,7 +7,7 @@ pipeline {
           if (isUnix()) {
             sh './mvnw -B -V clean verify'
           } else {
-            bat 'mvnw.cmd -B -V clean verify'
+            bat '.\mvnw.cmd -B -V clean verify'
           }
         }
       }
