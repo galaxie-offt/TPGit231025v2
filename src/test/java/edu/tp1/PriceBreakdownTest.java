@@ -12,7 +12,7 @@ class PriceBreakdownTest {
     void testConstructorAndGetters() {
         // 1. Création d'une instance avec des valeurs connues
         PriceBreakdown breakdown = new PriceBreakdown(100.0, 20.0, 5.0, 10.0, 75.0);
-        // test
+        // test 2
         // 2. Vérification que chaque getter retourne la bonne valeur
         assertEquals(100.0, breakdown.getSubtotal(), "Le sous-total est incorrect");
         assertEquals(20.0, breakdown.getWednesdayDiscount(), "La réduction du mercredi est incorrecte");
